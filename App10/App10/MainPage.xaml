@@ -7,7 +7,7 @@
     <StackLayout  >
         <!--to display button when keyboard appear
         1-add scroll and put inside it stacklayout
-        2-add in app.cs 
+        2-add in app.cs      
         -->
         <ScrollView>
             
