@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App10.MainPage" >
+
+
+    <StackLayout  >
+        <!--to display button when keyboard appear
+        1-add scroll and put inside it stacklayout
+        2-add in app.cs 
+        -->
+        <ScrollView>
+            
+           <StackLayout>
+                <Image Source="EasyDoctor.png" Margin="0,0,0,0"></Image>
+                <StackLayout BackgroundColor="LightBlue" Margin="20,0,20,30">
+                   
+                    <Label Text="Login" FontSize="30" FontFamily="Comic Sans MS" Margin="0,15,0,0" 
+                            TextColor="#302138" HorizontalTextAlignment="Center"></Label>
+                    <Entry Placeholder="E-mail" Margin="40,0,40,0" Keyboard="Email"/>
+                    <Entry  Placeholder="Password" IsPassword="True" Margin="40,0,40,0"/>
+                 </StackLayout>
+               
+            </StackLayout>
+        </ScrollView>
+        
+        <Button Text="Login"   TextColor="White" BackgroundColor="#302138" Margin="40,10,40,0"/>
+        <Button Text="Singup"   TextColor="White" BackgroundColor="#302138" Margin="40,0,40,25"/>
+
+        </StackLayout>
+     
+    <!--<StackLayout>
+<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Add radio button to Xamarin" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <ScrollView Orientation="Both">
+            <StackLayout>
+                <Label Text="What's your favorite animal?" />
+            <Entry x:Name="Txt1"></Entry>
+            <RadioButton Text="Cat" TextColor="Blue" />
+            <RadioButton Text="Dog" />
+            <RadioButton Text="Elephant" />
+            <RadioButton Text="Monkey" IsChecked="true" />
+            <Rectangle Fill="DarkBlue"
+           Stroke="Red"
+           StrokeThickness="4"
+           StrokeDashArray="1,1"
+           StrokeDashOffset="6"
+           WidthRequest="150"
+           HeightRequest="50"
+           HorizontalOptions="Start" />
+            <Line  X1="12"  Y1="12" Y2="50" X2="45"></Line>
+           </StackLayout>
+        </ScrollView> 
+
+                <Entry x:Name="Txt12"></Entry>
+  <Button Text="test"></Button>
+
+    </StackLayout>-->
+
+
+</ContentPage>
